@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,21 +13,21 @@
 <p>Email: johndoe@example.com</p>
 
 <!-- SVG examples -->
-<svg width="300" height="300">
+<svg width="800" height="500">
     <!-- Lines -->
     <line x1="50" y1="50" x2="100" y2="100" stroke-width="10" stroke="red"></line>
     <line x1="100" y1="100" x2="200" y2="0" stroke-width="10" stroke="black"></line>
     
     <!-- Circle -->
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="yellow"></circle>
+    <circle cx="50" cy="200" r="40" stroke="black" stroke-width="4" fill="yellow"></circle>
 
     <!-- 1.1 Rectangle with yellow fill -->
-    <rect width="100" height="20" fill="yellow" stroke="black" y="120"></rect>
+    <rect width="100" height="20" fill="yellow" stroke="black" y="250"></rect>
 
     <!-- 1.2 Draw 3 rectangles align horizontally -->
-    <rect width="50" height="20" fill="yellow" x="0" y="150"></rect>
-    <rect width="50" height="20" fill="orange" x="60" y="150"></rect>
-    <rect width="50" height="20" fill="red" x="120" y="150"></rect>
+    <rect width="50" height="20" fill="yellow" x="0" y="280"></rect>
+    <rect width="50" height="20" fill="orange" x="60" y="280"></rect>
+    <rect width="50" height="20" fill="red" x="120" y="280"></rect>
 
     <!-- 1.3 Draw 3 circles align vertically -->
     <circle cx="250" cy="20" r="10" fill="yellow"></circle>
@@ -38,10 +37,17 @@
 
     <!-- 1.4 Duplicate graphics -->
     <g transform="translate(500,0)">
-        <rect width="50" height="20" fill="yellow" x="0" y="150"></rect>
-        <rect width="50" height="20" fill="orange" x="60" y="150"></rect>
-        <rect width="50" height="20" fill="red" x="120" y="150"></rect>
+        <rect width="50" height="20" fill="yellow" x="0" y="280"></rect>
+        <rect width="50" height="20" fill="orange" x="60" y="280"></rect>
+        <rect width="50" height="20" fill="red" x="120" y="280"></rect>
     </g>
+
+    <!-- Smiley face -->
+    <circle cx="650" cy="200" r="50" fill="yellow"></circle>
+    <circle cx="630" cy="185" r="5" fill="black"></circle>
+    <circle cx="670" cy="185" r="5" fill="black"></circle>
+    <path d="M 630 215 Q 650 235, 670 215" stroke="black" fill="none" stroke-width="2"></path>
+
 </svg>
 
 <script type="text/javascript">
